@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.9/peer.min.js"></script>
+
+  </head>
+  <body>
+
+
+<div class="container">
+
+
+<div class="col-md-12">
+    <label><h3>Your ID:</h3></label><br/>
+    <textarea id="yourId" class="col-md-6"></textarea><br/>
+    <label><h3>Other ID:</h3></label><br/>
+    <textarea id="otherId"  class="col-md-6"></textarea><br>
+    <button id="connect" class="btn btn-primary col-md-6">Connect</button><br/>
+<br>
+    <label><h3>Enter Message:</h3></label><br/>
+    <textarea id="yourMessage"  class="col-md-6"></textarea>
+    <br>
+    <button id="send" class="btn btn-primary col-md-6">Send</button>
+
+</div>
+<br>
+
+<div class="col-md-6">
+  <div class="form-group">
+    <label for="messages"><h3>User Reply : </h3></label>
+    <textarea class="form-control" id="messages" rows="3" readonly></textarea>
+  </div>
+<!--     <pre id="messages"></pre> -->
+
+
+</div>
+
+
+
+    <script src="bundle.js" charset="utf-8"></script>
+
+
+</div>
+  </body>
+</html>
